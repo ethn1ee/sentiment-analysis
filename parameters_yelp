@@ -1,0 +1,41 @@
+{
+	"DT": {
+		"Random": {
+			"min_samples_leaf": 50,
+			"max_depth": 30
+		}
+	},
+	"LR (None)": {
+		"Random": {
+			"tol": 0.0005,
+			"C": 1
+		}
+	},
+	"LR (L1)": {
+		"Random": {
+			"tol": 0.0003,
+			"C": 1
+		}
+	},
+	"LR (L2)": {
+		"Random": {
+			"tol": 0.0003,
+			"C": 10
+		}
+	},
+	"KNN": {
+		"Random": {
+			"p": 2,
+			"n_neighbors": 10
+		}
+	},
+	"NN": {
+		"Random": {
+			"hidden_layer_sizes": [
+				100,
+				50
+			],
+			"alpha": 0.001
+		}
+	}
+}
